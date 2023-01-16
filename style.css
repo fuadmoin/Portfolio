@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+
 /* below are css for the toolbar section */
 .toolbar {
   display: flex;
@@ -22,7 +26,7 @@
   height: 24px;
   width: 77px;
   left: 12px;
-  top: 10px;
+  top: 14px;
   border-radius: nullpx;
   font-family: serif, 'Times New Roman', Times;
   font-weight: bold;
@@ -30,6 +34,7 @@
   text-align: center;
   color: #fff;
   vertical-align: middle;
+  position: absolute;
 }
 
 .normal-button {
@@ -48,7 +53,196 @@
   height: 24px;
   width: 24px;
   left: 8px;
-  top: 20px;
+  top: 8px;
   border-radius: 0;
+  position: absolute;
+}
+
+/* below are css for the headline section */
+
+.headline {
+  display: flex;
+  height: 590px;
+  width: 375px;
+  left: 0;
+  top: 92px;
+  border-radius: 0;
+  padding: 120px 0 120px 0;
+  background-color: #1c1a19;
+  background-image: url(images/Illustration.png);
+  background-repeat: no-repeat;
+  background-position: bottom 220px right;
+}
+
+.primary-text {
+  font-family: serif, 'Times New Roman', Times;
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 64px;
+  text-align: left;
+  color: #ff6b00;
+  font-style: normal;
+  letter-spacing: 0.37px;
+  height: 124px;
+  width: 327px;
+  left: 24px;
+  top: 120px;
+  border-radius: nullpx;
+  position: absolute;
+}
+
+.supporting-text {
+  height: 27px;
+  width: 327px;
+  left: 24px;
+  top: 262px;
+  border-radius: nullpx;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0;
+  text-align: left;
+  position: absolute;
+  color: #fff5e1;
+}
+
+.description {
+  height: 123px;
+  width: 327px;
+  left: 24px;
+  top: 310px;
+  font-family: serif, 'Times New Roman', Times;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #fff;
+  position: absolute;
+}
+
+.social-media {
+  height: 40px;
+  width: 200px;
+  left: 24px;
+  top: 450px;
+  border-radius: 0;
+  position: absolute;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  flex-flow: row;
+}
+
+.social-media .github {
+  height: 40px;
+  width: 40px;
+  left: 0;
+  top: 0;
+  border-radius: 8px;
+  padding: 8px;
+  position: absolute;
+  background-color: #1c1a19;
+  border-style: hidden;
+}
+
+.social-media .github .git-icon {
+  height: 24px;
+  width: 24px;
+  left: 8px;
+  top: 8px;
+  border-radius: 0;
+  fill: #dbd8d7;
+  position: absolute;
+}
+
+.social-media .linkedin {
+  height: 40px;
+  width: 40px;
+  left: 30px;
+  top: 0;
+  border-radius: 8px;
+  padding: 8px;
+  position: absolute;
+  background-color: #1c1a19;
+  border-style: hidden;
+}
+
+.social-media .linkedin .linkedin-icon {
+  height: 24px;
+  width: 24px;
+  left: 8px;
+  top: 8px;
+  border-radius: 0;
+  fill: #dbd8d7;
+  position: absolute;
+}
+
+.social-media .angle-list {
+  height: 40px;
+  width: 40px;
+  left: 60px;
+  top: 0;
+  border-radius: 8px;
+  padding: 6px;
+  position: absolute;
+  background-color: #1c1a19;
+  border-style: hidden;
+}
+
+.social-media .angle-list .angle-list-icon {
+  height: 24px;
+  width: 24px;
+  left: 8px;
+  top: 8px;
+  border-radius: 0;
+  fill: #dbd8d7;
+  position: absolute;
+}
+
+.social-media .twitter {
+  height: 40px;
+  width: 40px;
+  left: 90px;
+  top: 0;
+  border-radius: 8px;
+  padding: 8px;
+  position: absolute;
+  background-color: #1c1a19;
+  border-style: hidden;
+}
+
+.social-media .twitter .twitter-icon {
+  height: 24px;
+  width: 24px;
+  left: 8px;
+  top: 8px;
+  border-radius: 0;
+  fill: #dbd8d7;
+  position: absolute;
+}
+
+.social-media .medium {
+  height: 40px;
+  width: 40px;
+  left: 120px;
+  top: 0;
+  border-radius: 8px;
+  padding: 8px;
+  position: absolute;
+  background-color: #1c1a19;
+  border-style: hidden;
+}
+
+.social-media .medium .medium-icon {
+  height: 24px;
+  width: 24px;
+  left: 8px;
+  top: 8px;
+  border-radius: 0;
+  fill: #dbd8d7;
   position: absolute;
 }
