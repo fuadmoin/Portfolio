@@ -1,0 +1,54 @@
+/* below are css for the toolbar section */
+.toolbar {
+  display: flex;
+  height: 48px;
+  width: 375px;
+  left: 0;
+  top: 44px;
+  border-radius: 0;
+  background-color: #3c3a39;
+}
+
+.logo-placeholder {
+  height: 44px;
+  width: 101px;
+  left: 12px;
+  top: 2px;
+  border-radius: 0;
+  padding: 1px 12px 1px 12px;
+}
+
+.logo-placeholder .text {
+  height: 24px;
+  width: 77px;
+  left: 12px;
+  top: 10px;
+  border-radius: nullpx;
+  font-family: serif, 'Times New Roman', Times;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  color: #fff;
+  vertical-align: middle;
+}
+
+.normal-button {
+  display: inline;
+  height: 40px;
+  width: 40px;
+  left: 311px;
+  top: 4px;
+  border-radius: 8px;
+  padding: 3px;
+  order: 1;
+  position: absolute;
+}
+
+.normal-button .menu-icon {
+  height: 24px;
+  width: 24px;
+  left: 8px;
+  top: 20px;
+  border-radius: 0;
+  position: absolute;
+}
