@@ -14,8 +14,6 @@ body {
 }
 
 .logo-placeholder {
-  height: 44px;
-  width: 101px;
   left: 12px;
   top: 2px;
   border-radius: 0;
@@ -23,8 +21,6 @@ body {
 }
 
 .logo-placeholder .text {
-  height: 24px;
-  width: 77px;
   left: 12px;
   top: 14px;
   border-radius: nullpx;
@@ -39,8 +35,6 @@ body {
 
 .normal-button {
   display: inline;
-  height: 40px;
-  width: 40px;
   left: 311px;
   top: 4px;
   border-radius: 8px;
@@ -50,8 +44,6 @@ body {
 }
 
 .normal-button .menu-icon {
-  height: 24px;
-  width: 24px;
   left: 8px;
   top: 8px;
   border-radius: 0;
@@ -62,7 +54,7 @@ body {
 
 .headline {
   display: flex;
-  height: 590px;
+  height: 400px;
   width: 375px;
   left: 0;
   top: 92px;
@@ -71,7 +63,7 @@ body {
   background-color: #1c1a19;
   background-image: url(images/Illustration.png);
   background-repeat: no-repeat;
-  background-position: bottom 220px right;
+  background-position: bottom 1px right;
 }
 
 .primary-text {
@@ -83,8 +75,6 @@ body {
   color: #ff6b00;
   font-style: normal;
   letter-spacing: 0.37px;
-  height: 124px;
-  width: 327px;
   left: 24px;
   top: 120px;
   border-radius: nullpx;
@@ -92,10 +82,8 @@ body {
 }
 
 .supporting-text {
-  height: 27px;
-  width: 327px;
   left: 24px;
-  top: 262px;
+  top: 275px;
   border-radius: nullpx;
   font-family: 'Times New Roman', Times, serif;
   font-size: 24px;
@@ -108,10 +96,8 @@ body {
 }
 
 .description {
-  height: 123px;
-  width: 327px;
   left: 24px;
-  top: 310px;
+  top: 320px;
   font-family: serif, 'Times New Roman', Times;
   font-size: 16px;
   font-weight: 400;
@@ -123,10 +109,8 @@ body {
 }
 
 .social-media {
-  height: 40px;
-  width: 200px;
   left: 24px;
-  top: 450px;
+  top: 460px;
   border-radius: 0;
   position: absolute;
 }
@@ -138,8 +122,6 @@ body {
 }
 
 .social-media .github {
-  height: 40px;
-  width: 40px;
   left: 0;
   top: 0;
   border-radius: 8px;
@@ -150,8 +132,6 @@ body {
 }
 
 .social-media .github .git-icon {
-  height: 24px;
-  width: 24px;
   left: 8px;
   top: 8px;
   border-radius: 0;
@@ -160,8 +140,6 @@ body {
 }
 
 .social-media .linkedin {
-  height: 40px;
-  width: 40px;
   left: 30px;
   top: 0;
   border-radius: 8px;
@@ -172,8 +150,6 @@ body {
 }
 
 .social-media .linkedin .linkedin-icon {
-  height: 24px;
-  width: 24px;
   left: 8px;
   top: 8px;
   border-radius: 0;
@@ -182,8 +158,6 @@ body {
 }
 
 .social-media .angle-list {
-  height: 40px;
-  width: 40px;
   left: 60px;
   top: 0;
   border-radius: 8px;
@@ -194,8 +168,6 @@ body {
 }
 
 .social-media .angle-list .angle-list-icon {
-  height: 24px;
-  width: 24px;
   left: 8px;
   top: 8px;
   border-radius: 0;
@@ -204,8 +176,6 @@ body {
 }
 
 .social-media .twitter {
-  height: 40px;
-  width: 40px;
   left: 90px;
   top: 0;
   border-radius: 8px;
@@ -216,8 +186,6 @@ body {
 }
 
 .social-media .twitter .twitter-icon {
-  height: 24px;
-  width: 24px;
   left: 8px;
   top: 8px;
   border-radius: 0;
@@ -226,8 +194,6 @@ body {
 }
 
 .social-media .medium {
-  height: 40px;
-  width: 40px;
   left: 120px;
   top: 0;
   border-radius: 8px;
@@ -238,11 +204,541 @@ body {
 }
 
 .social-media .medium .medium-icon {
-  height: 24px;
-  width: 24px;
   left: 8px;
   top: 8px;
   border-radius: 0;
   fill: #dbd8d7;
   position: absolute;
+}
+
+/* below are css for the my recent works section */
+
+.my-recent-works {
+  display: grid;
+  grid-template-columns: auto;
+  align-items: center;
+  padding: 120px 0;
+  gap: 80px;
+  position: absolute;
+  width: 375px;
+  height: 3455px;
+  left: 0;
+  top: 682px;
+}
+
+.recent-works {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  gap: 24px;
+  grid-column: 1/ span 2;
+  left: 24px;
+  top: 120px;
+  border-radius: 0;
+  position: absolute;
+}
+
+.header-content {
+  font-family: serif, 'Times New Roman', Times;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  color: #1c1a19;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.hline {
+  width: 327px;
+  height: 0;
+  border: 1px solid #212121;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.recent-work-container {
+  left: 0;
+  top: 307px;
+  border-radius: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  gap: 24px;
+  width: 375px;
+  height: 3028px;
+  flex: none;
+  flex-grow: 0;
+  position: absolute;
+}
+
+/* below are css for the featured img section */
+
+.featured-image {
+  left: 0;
+  top: 0;
+  border-radius: 0;
+  padding: 0 24px 0 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.yoga {
+  left: 24px;
+  top: 0;
+  border-radius: 0;
+  width: 327px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.right-block {
+  left: 24px;
+  top: 261px;
+  border-radius: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  gap: 12px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.title-post {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 44px;
+  letter-spacing: 0;
+  text-align: left;
+  font-family: serif, 'Times New Roman', Times;
+  font-style: normal;
+  display: flex;
+  align-items: center;
+  color: #091e42;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.supporting-text-rw {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+  font-family: serif, 'Times New Roman', Times;
+  font-style: normal;
+  font-weight: 400;
+  color: #091e42;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.tags {
+  left: 0;
+  top: 207px;
+  border-radius: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  gap: 12px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.css {
+  left: 0;
+  top: 0;
+  border-radius: 0;
+  padding: 10px 12px 10px 12px;
+  border: 1px solid #8993a4;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: #fff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.csst {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0;
+  text-align: left;
+  font-family: serif, 'Times New Roman', Times;
+  font-style: normal;
+  color: #091e42;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.html {
+  border: 1px solid #8993a4;
+  left: 61px;
+  top: 0;
+  border-radius: 0;
+  padding: 10px 12px 10px 12px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: #fff;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.htmlt {
+  letter-spacing: 0;
+  text-align: left;
+  font-family: serif, 'Times New Roman', Times;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #091e42;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  left: 12px;
+  top: 10px;
+  border-radius: nullpx;
+}
+
+.bootstrap {
+  left: 129px;
+  top: 0;
+  border-radius: 0;
+  padding: 10px 12px 10px 12px;
+  border: 1px solid #8993a4;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: #fff;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.bootstrapt {
+  letter-spacing: 0;
+  text-align: left;
+  font-family: serif, 'Times New Roman', Times;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #091e42;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  left: 12px;
+  top: 10px;
+  border-radius: nullpx;
+}
+
+.ruby {
+  height: 40px;
+  width: 61px;
+  left: 236px;
+  top: 0;
+  border-radius: 0;
+  padding: 10px 12px 10px 12px;
+  border: 1px solid #8993a4;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: #fff;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
+
+.rubyt {
+  font-family: serif, 'Times New Roman', Times;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #091e42;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  left: 12px;
+  top: 10px;
+  border-radius: nullpx;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+.see-project {
+  left: 0;
+  top: 259px;
+  border-radius: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  background: #ff6b00;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
+
+.see-projectt {
+  left: 12px;
+  top: 12px;
+  border-radius: nullpx;
+  letter-spacing: 0.03em;
+  text-align: center;
+  font-family: serif, 'Times New Roman', Times;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/* below are css for the card-work section */
+.card-work {
+  display: grid;
+  grid-template-columns: auto;
+  left: 0;
+  top: 592px;
+  border-radius: 0;
+  padding: 0 24px 0 24px;
+  align-items: center;
+  gap: 24px;
+  order: 1;
+  position: absolute;
+}
+
+.cardworks {
+  display: flex;
+  flex-direction: column-reverse;
+  left: 24px;
+  flex-grow: 0;
+  position: absolute;
+  border-radius: 0;
+}
+
+.cardwork-one {
+  top: 110px;
+  order: 0;
+}
+
+.cardwork-two {
+  top: 550px;
+  order: 1;
+}
+
+.cardwork-three {
+  top: 990px;
+  order: 2;
+}
+
+.cardwork-four {
+  top: 1430px;
+  order: 2;
+}
+
+.cardwork-five {
+  top: 1870px;
+  order: 2;
+}
+
+.cardwork-six {
+  top: 2310px;
+  order: 2;
+}
+
+.action {
+  left: 0;
+  top: 360px;
+  border-radius: 0;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  order: 0;
+}
+
+.btn {
+  left: 101.5px;
+  top: 0;
+  border-radius: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 4px;
+  border-style: hidden;
+  position: absolute;
+  background: #ff6b00;
+}
+
+.btntxt {
+  font-family: serif, 'Times New Roman', Times;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #fff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.rectangle {
+  left: 0;
+  top: 0;
+  border-radius: 0;
+  width: 327px;
+  height: 48px;
+  background: #ff6b00;
+}
+
+.cardwork-one-rb {
+  height: 248px;
+  width: 327px;
+  left: 0;
+  top: 76px;
+  border-radius: 0;
+  padding: 8px 16px 8px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  position: absolute;
+  bottom: 62px;
+  order: 1;
+}
+
+.cwo-title-post {
+  font-family: serif, 'Times New Roman', Times;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  left: 16px;
+  top: 8px;
+  border-radius: nullpx;
+}
+
+.cwo-supporting-text {
+  left: 16px;
+  top: 115px;
+  border-radius: nullpx;
+  font-family: serif, 'Times New Roman', Times;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  position: absolute;
+}
+
+.cwo-tags {
+  left: 16px;
+  top: 20px;
+  border-radius: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  gap: 12px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.cw-li {
+  top: 230px;
+  border-radius: 0;
+  padding: 10px 12px 10px 12px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.24);
+  flex: none;
+  flex-grow: 0;
+  position: absolute;
+}
+
+.cw-html {
+  left: 16px;
+  order: 0;
+}
+
+.cw-bootstrap {
+  left: 74px;
+  order: 1;
+}
+
+.cw-ruby {
+  left: 158px;
+  order: 2;
+}
+
+.cw-text {
+  letter-spacing: 0;
+  text-align: left;
+  width: 32px;
+  height: 20px;
+  font-family: serif, 'Times New Roman', Times;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #fff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.mask-group {
+  height: 386px;
+  width: 327px;
+  left: 0;
+  top: 0;
+  border-radius: 0;
+  background: #262626;
+  background-image: url(images/mask.png);
 }
