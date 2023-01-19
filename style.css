@@ -684,6 +684,7 @@ body {
   left: 0;
   top: 0;
   border-radius: 0;
+  border-style: hidden;
   width: 327px;
   height: 48px;
   background: #ff6b00;
@@ -880,6 +881,7 @@ body {
   top: 370px;
   border-radius: 0;
   position: absolute;
+  border-style: hidden;
 }
 
 .btn-abouttxt {
