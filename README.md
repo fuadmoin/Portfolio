@@ -37,7 +37,7 @@ Example commands:
 
 ```sh
   cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+  git clone https://github.com/fuadmoin/Portfolio.git
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
