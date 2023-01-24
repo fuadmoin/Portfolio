@@ -1,6 +1,9 @@
 <a name="readme-top"></a>
 
 <div align="center">
+  
+  <img src="logo2.png" alt="logo" width="140"  height="auto" />
+  <br/>
 
   <h3><b>Microverse README Template</b></h3>
 
@@ -10,13 +13,22 @@
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 # 📖 Portfolio <a name="about-project"></a>
@@ -27,7 +39,21 @@
 
 HTML and CSS
 
+### Tech Stack <a name="tech-stack"></a>
+
+### Key Features <a name="key-features"></a>
+
+- **[html styled with css]**
+- **[some google fonts]**
+- **[the contact form can collect data by using the Formspree service ]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## 🚀 Live Demo <a name="live-demo"></a>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 ## 💻 Getting Started <a name="getting-started"></a>
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
 
 ### Setup
 
@@ -39,6 +65,14 @@ Example commands:
   cd my-folder
   git clone https://github.com/fuadmoin/Portfolio.git
 ```
+
+### Install
+
+### Usage
+
+### Run tests
+
+### Deployment
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -53,8 +87,6 @@ Example commands:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[About page will be added]**
-- [ ] **[contact me page will be added]**
 - [ ] **[java script will be added ]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -63,7 +95,9 @@ Example commands:
 
 Contributions, issues, and feature requests are welcome!
 
-⭐️ Show your support <a name="support"></a>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## ⭐️ Show your support <a name="support"></a>
 
 If you like this project please consider leaving a review.
 
@@ -71,7 +105,7 @@ If you like this project please consider leaving a review.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank my coding partner @AJ193 for motivating and helping me.
+I would like to thank my coding partner @Munyabelden for motivating and helping me.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
