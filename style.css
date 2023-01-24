@@ -39,7 +39,7 @@ body {
   height: 48px;
   width: 375px;
   left: 0;
-  top: 44px;
+  top: 0;
   border-radius: 0;
   background-color: #3c3a39;
 }
@@ -580,7 +580,9 @@ body {
   color: #ff6b00;
 }
 
-/* below are css for the card-work section */
+/* below are css for the card-work
+
+section */
 .card-work {
   display: grid;
   grid-template-columns: auto;

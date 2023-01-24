@@ -47,6 +47,7 @@
                 <img src="./images/m.png" alt="a link to medium" class="medium-icon">
             </button> </a> </li>
         </ul>
+        </div>
     </section>
     
      </div>
@@ -287,9 +288,39 @@
 
         
     </div>
+    <section class="contact-form">
+        <article class="contact-text-container">
+            <small class="contact-text">
+                I'm always <br> interested in hearing<br>
+                 about new projects,<br>
+                 so if you'd like to <br> 
+                chat please get in <br> touch.               
+            </small>
+        </article>
+            <form method="POST" action="https://formspree.io/f/mgebvdbg" class="form-box">
+                
+                <input type="text" class="full-name" 
+                name="fullName"
+                required maxlength="30"
+                placeholder="Full name">
+                <hr class="contacthr one">
+                <input type="email" class="email-address" 
+                name="email" placeholder="Email address"
+                required>
+                <hr class="contacthr two">
+                <textarea name="message" id="" cols="30" rows="10" 
+                maxlength="500"class="enter-text-here" placeholder="Enter text here"
+                required></textarea>
+                
+            <button type="submit"  class="btn-contact"><small class="btn-contact-text">Get in touch</small></button>
+            </form>
+        
+    </section>
 
-
+    
 </body>
+
+
 </html>
 
 
