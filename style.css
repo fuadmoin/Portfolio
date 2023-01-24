@@ -1342,109 +1342,108 @@ section */
   flex-grow: 0;
 }
 
-.bottom-navigation{
+.bottom-navigation {
   height: 72px;
   width: 375px;
-  left: 0px;
+  left: 0;
   top: 7120px;
-  border-radius: 0px;
+  border-radius: 0;
   position: absolute;
 }
 
-.footer-rectangle{
+.footer-rectangle {
   height: 1px;
   width: 375px;
-  left: 0px;
-  top: 0px;
-  border-radius: 0px;
-  background: #DFE1E6;
-  right: 0px;
+  left: 0;
+  top: 0;
+  border-radius: 0;
+  background: #dfe1e6;
+  right: 0;
   position: absolute;
 }
-.bottom-nav-list{
+
+.bottom-nav-list {
   height: 40px;
-width: 200px;
-left: 88px;
-top: 16px;
-border-radius: 0px;
-display: flex;
-flex-direction: row;
-align-items: center;
-padding: 0px;
-position: absolute;
+  width: 200px;
+  left: 88px;
+  top: 16px;
+  border-radius: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  position: absolute;
 }
 
-.bottom-li{
- 
-position: absolute;
-top: 0px;
-border-radius: 8px;
-
-display: flex;
-flex-direction: row;
-align-items: flex-start;
-
-flex: none;
-
-flex-grow: 0;
+.bottom-li {
+  position: absolute;
+  top: 0;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  flex: none;
+  flex-grow: 0;
 }
 
-.btmgit{
+.btmgit {
   order: 0;
-  left: 0px;
+  left: 0;
 }
-.btmlink{
+
+.btmlink {
   order: 1;
   left: 40px;
 }
-.btmang{
+
+.btmang {
   order: 2;
   left: 80px;
 }
-.btmtwt{
+
+.btmtwt {
   order: 3;
   left: 120px;
 }
-.btmmdm{
+
+.btmmdm {
   order: 4;
   left: 160px;
 }
 
-
-
-.btmbtn{
-  
-left: 8px;
-top: 8px;
-border-radius: 0px;
-flex: none;
-border-style: hidden;
-flex-grow: 0;
-order: 0;
+.btmbtn {
+  left: 8px;
+  top: 8px;
+  border-radius: 0;
+  flex: none;
+  border-style: hidden;
+  flex-grow: 0;
+  order: 0;
 }
 
-.navimageg{
+.navimageg {
   position: absolute;
-left: 0.08%;
-right: 0.01%;
-top: 0%;
-border-radius: 0px;
-padding: 8px;
+  left: 0.08%;
+  right: 0.01%;
+  top: 0%;
+  border-radius: 0;
+  padding: 8px;
 }
 
-.navimage{
-
+.navimage {
   position: absolute;
-left: 8.33%;
-right: 8.33%;
-top: 4px;
-bottom: 16.67%;
-padding: 8px;
-  border-radius: 0px;
-  
-}.btn-contact:hover {
+  left: 8.33%;
+  right: 8.33%;
+  top: 4px;
+  bottom: 16.67%;
+  padding: 8px;
+  border-radius: 0;
+}
+
+.btn-contact:hover {
   background-color: antiquewhite;
 }
+
 .btn-contact-text:hover {
   color: #ff6b00;
 }
