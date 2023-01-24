@@ -1324,6 +1324,7 @@ section */
   order: 3;
   flex-grow: 0;
   width: 131px;
+  border-style: hidden;
 }
 
 .btn-contact-text {
