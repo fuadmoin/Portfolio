@@ -1168,3 +1168,176 @@ section */
   top: 800px;
   position: absolute;
 }
+
+.contact-form {
+  height: 844px;
+  width: 375px;
+  left: 0;
+  top: 6202px;
+  border-radius: 0;
+  padding: 120px 24px 120px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 58px;
+  position: absolute;
+}
+
+.contact-text-container {
+  left: 24px;
+  top: 120px;
+  border-radius: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  gap: 24px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.contact-text {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #172b4d;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.form-box {
+  left: 24px;
+  top: 444px;
+  border-radius: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  gap: 24px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  position: absolute;
+}
+
+.full-name {
+  position: absolute;
+  height: 48px;
+  width: 327px;
+  order: 0;
+  flex-grow: 0;
+  left: 0;
+  top: 0;
+  border-style: hidden;
+}
+
+::placeholder {
+  height: 18px;
+  width: 295px;
+  left: 16px;
+  top: 15px;
+  border-radius: nullpx;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #979493;
+  position: absolute;
+}
+
+.email-address {
+  height: 48px;
+  width: 327px;
+  left: 0;
+  top: 72px;
+  border-radius: 0;
+  position: absolute;
+  flex-grow: 0;
+  order: 1;
+  border-style: hidden;
+}
+
+.contacthr {
+  position: absolute;
+  height: 1px;
+  left: 0;
+  width: 327px;
+  border-radius: 0;
+  background: #dbd8d7;
+}
+
+.one {
+  top: 47px;
+}
+
+.two {
+  top: 120px;
+}
+
+.enter-text-here {
+  height: 114px;
+  width: 327px;
+  left: 0;
+  top: 144px;
+  border-radius: 0;
+  flex: none;
+  order: 4;
+  flex-grow: 0;
+  position: absolute;
+  border-style: hidden;
+  background: #fbf8f7;
+}
+
+.enter-text-here::placeholder {
+  height: 90px;
+  width: 303px;
+  left: 12px;
+  top: 12px;
+  border-radius: nullpx;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #3c3a39;
+  position: absolute;
+}
+
+.btn-contact {
+  left: 98px;
+  top: 282px;
+  border-radius: 0;
+  padding: 12px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  background: #ff6b00;
+  position: absolute;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  width: 131px;
+}
+
+.btn-contact-text {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #fff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
