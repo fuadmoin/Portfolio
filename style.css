@@ -1341,3 +1341,110 @@ section */
   order: 0;
   flex-grow: 0;
 }
+
+.bottom-navigation{
+  height: 72px;
+  width: 375px;
+  left: 0px;
+  top: 7120px;
+  border-radius: 0px;
+  position: absolute;
+}
+
+.footer-rectangle{
+  height: 1px;
+  width: 375px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+  background: #DFE1E6;
+  right: 0px;
+  position: absolute;
+}
+.bottom-nav-list{
+  height: 40px;
+width: 200px;
+left: 88px;
+top: 16px;
+border-radius: 0px;
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+position: absolute;
+}
+
+.bottom-li{
+ 
+position: absolute;
+top: 0px;
+border-radius: 8px;
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+
+flex: none;
+
+flex-grow: 0;
+}
+
+.btmgit{
+  order: 0;
+  left: 0px;
+}
+.btmlink{
+  order: 1;
+  left: 40px;
+}
+.btmang{
+  order: 2;
+  left: 80px;
+}
+.btmtwt{
+  order: 3;
+  left: 120px;
+}
+.btmmdm{
+  order: 4;
+  left: 160px;
+}
+
+
+
+.btmbtn{
+  
+left: 8px;
+top: 8px;
+border-radius: 0px;
+flex: none;
+border-style: hidden;
+flex-grow: 0;
+order: 0;
+}
+
+.navimageg{
+  position: absolute;
+left: 0.08%;
+right: 0.01%;
+top: 0%;
+border-radius: 0px;
+padding: 8px;
+}
+
+.navimage{
+
+  position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 4px;
+bottom: 16.67%;
+padding: 8px;
+  border-radius: 0px;
+  
+}.btn-contact:hover {
+  background-color: antiquewhite;
+}
+.btn-contact-text:hover {
+  color: #ff6b00;
+}
