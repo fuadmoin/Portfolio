@@ -1618,12 +1618,11 @@ section */
   .headline {
     display: flex;
     flex-direction: column;
-    height: 739px;
+    height: 630px;
     width: 566px;
     left: 143px;
     top: 72px;
     border-radius: 0;
-    padding: 192px 0 192px 0;
     align-items: center;
     gap: 24px;
     position: absolute;
@@ -1690,7 +1689,7 @@ section */
     border-radius: 0;
     position: relative;
     width: 100%;
-    height: 1123px;
+    height: 870px;
     top: 72px;
     background: #1c1a19;
     background-image: url(images/Illustration-header.png);
@@ -1754,7 +1753,7 @@ section */
     height: 1805px;
     width: 1204px;
     left: 118px;
-    top: 1196px;
+    top: 948px;
     border-radius: 0;
     padding: 130px 24px 130px 24px;
     position: absolute;
@@ -1844,7 +1843,7 @@ section */
   }
 
   .right-block {
-    left: 708px;
+    left: -1px;
     top: -40px;
     border-radius: 0;
     display: flex;
@@ -1855,6 +1854,7 @@ section */
     flex: none;
     order: 1;
     flex-grow: 0;
+    position: relative;
   }
 
   .title-post {
@@ -2174,12 +2174,12 @@ section */
   .about-skill {
     display: flex;
     flex-direction: column;
-    position: absolute;
+    position: relative;
     width: 1440px;
     height: 1195px;
     background: #262626;
     left: 0;
-    top: 3024px;
+    top: 1906px;
     border-radius: 0;
     background-image: url(images/illustration-about\ me.png);
     background-repeat: no-repeat;
@@ -2523,14 +2523,15 @@ section */
   }
 
   .contact-form {
-    height: 590px;
+    height: 360px;
     width: 1163px;
     left: 135px;
-    top: 4220px;
+    top: 1907px;
     border-radius: 0;
     padding: 130px 0 130px 0;
     display: flex;
     flex-direction: row;
+    position: relative;
     align-items: flex-start;
     gap: 24px;
   }
@@ -2692,7 +2693,7 @@ section */
     height: 72px;
     width: 1440px;
     left: 0;
-    top: 3712px;
+    top: 1895px;
     border-radius: 0;
     position: relative;
   }
