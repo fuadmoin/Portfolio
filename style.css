@@ -55,6 +55,11 @@ body {
   display: none;
 }
 
+@keyframes rotate {
+  0% { transform: rotate(3.142rad); }
+  100% { transform: rotate(0deg); }
+}
+
 .logo-placeholder .text {
   left: 12px;
   top: 14px;
@@ -66,6 +71,8 @@ body {
   color: #fff;
   vertical-align: middle;
   position: absolute;
+  animation-name: rotate;
+  animation-duration: 2s;
 }
 
 .normal-button {
@@ -579,6 +586,7 @@ body {
   flex-grow: 0;
   position: relative;
   border-style: hidden;
+  transition: all 1s ease-in-out;
 }
 
 .see-project:hover {
@@ -602,6 +610,7 @@ body {
   flex: none;
   order: 0;
   flex-grow: 0;
+  transition: all 1s ease-in-out;
 }
 
 .see-projectt:hover {
@@ -692,6 +701,7 @@ section */
   border-style: hidden;
   position: absolute;
   background: #ff6b00;
+  transition: all 1s ease-in-out;
 }
 
 .btntxt {
@@ -708,6 +718,7 @@ section */
   flex: none;
   order: 0;
   flex-grow: 0;
+  transition: all 1s ease-in-out;
 }
 
 .btn:hover {
@@ -800,6 +811,15 @@ section */
   flex: none;
   flex-grow: 0;
   position: absolute;
+  transition: all 200ms ease-in-out;
+}
+
+.cw-li:hover {
+  border-color: aqua;
+  border-style: double;
+  border-radius: 2px;
+  background-color: black;
+  font-size: larger;
 }
 
 .cw-html {
@@ -839,6 +859,11 @@ section */
   border-radius: 0;
   background: #262626;
   background-image: url(images/mask.png);
+  transition: all 0.2s ease-in-out;
+}
+
+.mask-group:hover {
+  transform: scale(1.05);
 }
 
 /* below are css for the About section */
@@ -924,6 +949,7 @@ section */
   border-radius: 0;
   position: absolute;
   border-style: hidden;
+  transition: all 1s ease-in-out;
 }
 
 .btn-abouttxt {
@@ -943,6 +969,7 @@ section */
   flex: none;
   order: 0;
   flex-grow: 0;
+  transition: all 1s ease-in-out;
 }
 
 .btn-about:hover {
@@ -1293,6 +1320,11 @@ section */
   line-height: 24px;
   color: #979493;
   position: absolute;
+  transition: all 1s ease-in-out;
+}
+
+.full-name:hover::placeholder {
+  transform: translate(50%, 0);
 }
 
 .email-address {
@@ -1373,6 +1405,7 @@ section */
   flex-grow: 0;
   width: 131px;
   border-style: hidden;
+  transition: all 1s ease-in-out;
 }
 
 .btn-contact-text {
@@ -1389,6 +1422,7 @@ section */
   flex: none;
   order: 0;
   flex-grow: 0;
+  transition: all 1s ease-in-out;
 }
 
 .bottom-navigation {
@@ -1926,6 +1960,7 @@ section */
     flex-grow: 0;
     position: absolute;
     border-style: hidden;
+    transition: all 1s ease-in-out;
   }
 
   .card-work {
@@ -2013,6 +2048,7 @@ section */
     border-style: hidden;
     position: absolute;
     background: #ff6b00;
+    transition: all 1s ease-in-out;
   }
 
   .rectangle {
@@ -2252,6 +2288,7 @@ section */
     flex: none;
     order: 2;
     flex-grow: 0;
+    transition: all 1s ease-in-out;
   }
 
   .btn-abouttxt {
@@ -2271,6 +2308,7 @@ section */
     flex: none;
     order: 0;
     flex-grow: 0;
+    transition: all 1s ease-in-out;
   }
 
   .divider {
@@ -2667,6 +2705,7 @@ section */
     flex: none;
     order: 3;
     flex-grow: 0;
+    transition: all 1s ease-in-out;
   }
 
   .btn-contact-text {
@@ -2687,6 +2726,7 @@ section */
     flex: none;
     order: 0;
     flex-grow: 0;
+    transition: all 1s ease-in-out;
   }
 
   .bottom-navigation {
