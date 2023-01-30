@@ -52,7 +52,7 @@ HTML and CSS
 
 > click the link below to chekout the website.
 
-- [Live Demo Link](https://fuadmoin.github.io/)
+- [Live Demo Link](https://fuadmoin.github.io/Portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
