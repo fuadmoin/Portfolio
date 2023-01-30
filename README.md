@@ -50,6 +50,8 @@ HTML and CSS
 
 ## 🚀 Live Demo <a name="live-demo"> </a>
 
+> click the link below to chekout the website.
+
 - [Live Demo Link](https://fuadmoin.github.io/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
