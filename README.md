@@ -47,10 +47,13 @@ HTML and CSS
 - **[the contact form can collect data by using the Formspree service ]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## 🚀 Live Demo <a name="live-demo"> </a>
+
 - [Live Demo Link](https://fuadmoin.github.io/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running, follow these steps.
@@ -87,6 +90,7 @@ Example commands:
 - LinkedIn: [Fuad Moin](https://www.linkedin.com/in/fuad-moin-a7b126259/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **[java script will be added ]**
