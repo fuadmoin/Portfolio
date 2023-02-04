@@ -595,6 +595,10 @@
   background-color: antiquewhite;
 }
 
+.see-project:focus {
+  background-color: black;
+}
+
 .see-projectt {
   left: 12px;
   top: 12px;
@@ -615,7 +619,8 @@
   transition: all 1s ease-in-out;
 }
 
-.see-projectt:hover {
+.see-projectt:hover,
+.see-projectt:focus {
   color: #ff6b00;
 }
 
@@ -727,7 +732,12 @@ section */
   background-color: antiquewhite;
 }
 
-.btntxt:hover {
+.btn:focus {
+  background-color: black;
+}
+
+.btntxt:hover,
+.btntxt:focus {
   color: #ff6b00;
 }
 
@@ -816,7 +826,8 @@ section */
   transition: all 200ms ease-in-out;
 }
 
-.cw-li:hover {
+.cw-li:hover,
+.cw-li:focus {
   border-color: aqua;
   border-style: double;
   border-radius: 2px;
@@ -864,7 +875,8 @@ section */
   transition: all 0.2s ease-in-out;
 }
 
-.mask-group:hover {
+.mask-group:hover,
+.mask-group:focus {
   transform: scale(1.05);
 }
 
@@ -978,7 +990,12 @@ section */
   background-color: antiquewhite;
 }
 
-.btn-abouttxt:hover {
+.btn-about:focus {
+  background-color: black;
+}
+
+.btn-abouttxt:hover,
+.btn-abouttxt:focus {
   color: #ff6b00;
 }
 
@@ -1239,7 +1256,7 @@ section */
 }
 
 .contact-form {
-  height: 844px;
+  height: 750px;
   width: 375px;
   left: 0;
   top: 6195px;
@@ -1325,7 +1342,8 @@ section */
   transition: all 1s ease-in-out;
 }
 
-.full-name:hover::placeholder {
+.full-name:hover::placeholder,
+.full-name:focus::placeholder {
   transform: translate(50%, 0);
 }
 
@@ -1431,9 +1449,9 @@ section */
   height: 72px;
   width: 375px;
   left: 0;
-  top: 7120px;
+  top: 6399px;
   border-radius: 0;
-  position: absolute;
+  position: relative;
 }
 
 .footer-rectangle {
@@ -1529,7 +1547,12 @@ section */
   background-color: antiquewhite;
 }
 
-.btn-contact-text:hover {
+.btn-contact:focus {
+  background-color: black;
+}
+
+.btn-contact-text:hover,
+.btn-contact-text:focus {
   color: #ff6b00;
 }
 
@@ -2213,7 +2236,7 @@ section */
     display: flex;
     flex-direction: column;
     position: relative;
-    width: 1440px;
+    width: 100%;
     height: 1195px;
     background: #262626;
     left: 0;
