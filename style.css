@@ -93,6 +93,51 @@
   border-radius: 0;
   position: absolute;
 }
+/* below are a css for the javascript enabled navigations*/
+
+.hidden {
+  display: none;
+  width: 100%;
+  height: 666px;
+  background: #3C3A39;
+}
+
+.hidden img {
+  right: 38px;
+  top: 33px;
+  position: absolute;
+}
+
+.hidden-ul {
+  display: flex;
+  flex-direction: column;
+  top: 58px;
+  position: relative;
+}
+
+.hidden-ul li {
+  list-style-type: none;
+  left: 40px;
+  
+}
+.hidden-ul li a {
+  color: #FFF5E1;
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.hidden-ul .navline{
+  height: 0px;
+  margin-top: 15px;
+  width: 327px;
+  background: #6F6C6B;
+  left: -20px;
+  position: relative;
+}
 
 /* below are css for the headline section */
 
