@@ -9,8 +9,20 @@
 </head>
 <body class="brb">
     <header class="toolbar">
+        <nav class="hidden">
+            <img id="close" src="images/close.png" />
+            <ul class="hidden-ul">
+              <li><a id="port" href="#portfolio">Portfolio</a></li>
+              <hr class="navline" />
+              <li><a id="about" href="#about2">About</a></li>
+              <hr class="navline" />
+              <li><a id="cont" href="#contact">Contact</a></li>
+              <hr class="navline" />
+            </ul>
+          </nav>
         <nav class="normal-button">
-            <img class="menu-icon" src="./images/Icon_Menu.png" alt="menu icon">
+           <img id="option" class="menu-icon" src="./images/Icon_Menu.png" alt="menu icon"> 
+            
             <a href="" class="navD-1 navig">Portfolio</a>
             <a href="" class="navD-2 navig">About</a>
             <a href="" class="navD-3 navig">Contact</a>
@@ -39,7 +51,7 @@
                 </a> </li>
         </ul>
     </div>
-    <section class="headline">
+    <section  class="headline">
         <h1 class="primary-text" tabindex="0">Hey There. <br>
             I’m Fuad
         </h1>
@@ -74,7 +86,7 @@
     </section>
     </div>
     <div class="my-recent-works">
-        <header class="recent-works">
+        <header id="portfolio" class="recent-works">
             <h2 class="header-content" tabindex="0">
                 My Recent Works
             </h2>
@@ -314,7 +326,7 @@
         </div>
     </div>
     <div class="about-skill">
-        <section class="about">
+        <section id="about2" class="about">
             <h4 class="about-me" tabindex="0">About me</h4>
             <p class="about-me-description">
                 Hello I’m a software developer! I can help<br>
@@ -375,7 +387,7 @@
 
 
     </div>
-    <section class="contact-form">
+    <section id="contact" class="contact-form">
         <article class="contact-text-container">
             <small class="contact-text">
                 I'm always <br> interested in hearing<br>
@@ -429,6 +441,7 @@
         </nav>
     </footer>
 
+    <script src="portfolio.js"></script>
 </body>
 
 
