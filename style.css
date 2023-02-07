@@ -631,25 +631,6 @@
   padding: 12px;
   gap: 10px;
   background: #ff6b00;
-  flex: none;
-  order: 3;
-  flex-grow: 0;
-  position: relative;
-  border-style: hidden;
-  transition: all 1s ease-in-out;
-}
-
-.see-project:hover {
-  background-color: antiquewhite;
-}
-
-.see-project:focus {
-  background-color: black;
-}
-
-.see-projectt {
-  left: 12px;
-  top: 12px;
   border-radius: nullpx;
   letter-spacing: 0.03em;
   text-align: center;
@@ -658,19 +639,24 @@
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
-  display: flex;
-  align-items: center;
   color: #fff;
   flex: none;
-  order: 0;
+  order: 3;
   flex-grow: 0;
+  position: relative;
+  border-style: hidden;
   transition: all 1s ease-in-out;
+
 }
 
-.see-projectt:hover,
-.see-projectt:focus {
+.see-project:hover, .see-project:focus {
+  background-color: antiquewhite;
   color: #ff6b00;
 }
+
+ 
+
+
 
 /* below are css for the card-work
 
@@ -746,58 +732,41 @@ section */
 }
 
 .btn {
-  left: 101.5px;
-  top: 15px;
+  width: 327px;
+  height: 48px;
+  left: 0;
+  top: 0;
   border-radius: 0;
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
   padding: 4px;
   border-style: hidden;
   position: absolute;
   background: #ff6b00;
   transition: all 1s ease-in-out;
-}
-
-.btntxt {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.03em;
   color: #fff;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  transition: all 1s ease-in-out;
 }
 
-.btn:hover {
+
+
+.btn:hover, .btn:focus {
   background-color: antiquewhite;
-}
-
-.btn:focus {
-  background-color: black;
-}
-
-.btntxt:hover,
-.btntxt:focus {
   color: #ff6b00;
 }
 
-.rectangle {
-  left: 0;
-  top: 0;
-  border-radius: 0;
-  border-style: hidden;
-  width: 327px;
-  height: 48px;
-  background: #ff6b00;
-}
+ 
+
+
+
+
 
 .cardwork-one-rb {
   height: 248px;
@@ -923,11 +892,6 @@ section */
   transition: all 0.2s ease-in-out;
 }
 
-.mask-group:hover,
-.mask-group:focus {
-  transform: scale(1.05);
-}
-
 /* below are css for the About section */
 .about-skill {
   display: flex;
@@ -1003,6 +967,15 @@ section */
   padding: 12px;
   gap: 10px;
   background: #ff6b00;
+  
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
   flex: none;
   order: 2;
   flex-grow: 0;
@@ -1014,38 +987,12 @@ section */
   transition: all 1s ease-in-out;
 }
 
-.btn-abouttxt {
-  left: 12px;
-  top: 342px;
-  border-radius: nullpx;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 17px;
-  line-height: 24px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #fff;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  transition: all 1s ease-in-out;
-}
 
-.btn-about:hover {
+.btn-about:hover, .btn-about:focus {
   background-color: antiquewhite;
-}
-
-.btn-about:focus {
-  background-color: black;
-}
-
-.btn-abouttxt:hover,
-.btn-abouttxt:focus {
   color: #ff6b00;
 }
+
 
 .divider {
   width: 327px;
@@ -1467,6 +1414,14 @@ section */
   align-items: center;
   gap: 10px;
   background: #ff6b00;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
   position: absolute;
   flex: none;
   order: 3;
@@ -1476,22 +1431,6 @@ section */
   transition: all 1s ease-in-out;
 }
 
-.btn-contact-text {
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 17px;
-  line-height: 24px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #fff;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  transition: all 1s ease-in-out;
-}
 
 .bottom-navigation {
   height: 72px;
@@ -1591,18 +1530,11 @@ section */
   border-radius: 0;
 }
 
-.btn-contact:hover {
+.btn-contact:hover, .btn-contact:focus {
   background-color: antiquewhite;
-}
-
-.btn-contact:focus {
-  background-color: black;
-}
-
-.btn-contact-text:hover,
-.btn-contact-text:focus {
   color: #ff6b00;
 }
+
 
 [class*="navD-"] {
   display: none;
@@ -2036,6 +1968,10 @@ section */
     transition: all 1s ease-in-out;
   }
 
+  .see-project:hover, .see-project:focus {
+    background-color: antiquewhite;
+    color: #ff6b00;
+  }
   .card-work {
     display: none;
   }
@@ -2109,13 +2045,13 @@ section */
     right: 0;
     bottom: 0;
     order: 0;
+    display:none;
   }
-
+  
   .btn {
-    height: 48px;
-    width: 124px;
-    left: 122.5px;
-    top: 10px;
+    width: 369px;
+    height: 58px;left: 0;
+    top: 8px;
     border-radius: 0;
     padding: 12px;
     border-style: hidden;
@@ -2124,15 +2060,7 @@ section */
     transition: all 1s ease-in-out;
   }
 
-  .rectangle {
-    left: 0;
-    top: 0;
-    border-radius: 0;
-    border-style: hidden;
-    width: 369px;
-    height: 58px;
-    background: #ff6b00;
-  }
+  
 
   .mask-group {
     width: 369px;
@@ -2158,6 +2086,10 @@ section */
   .mask-group4 {
     background-image: url(images/cardfour.png);
   }
+
+  
+  
+
 
   .cardwork-one-rb {
     display: flex;
@@ -2357,6 +2289,13 @@ section */
     left: 0;
     top: 50px;
     border-radius: 0;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #fff;
     background: #f55800;
     flex: none;
     order: 2;
@@ -2364,25 +2303,6 @@ section */
     transition: all 1s ease-in-out;
   }
 
-  .btn-abouttxt {
-    left: 12px;
-    top: 12px;
-    border-radius: nullpx;
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 17px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #fff;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    transition: all 1s ease-in-out;
-  }
 
   .divider {
     width: 1156px;
@@ -2775,32 +2695,20 @@ section */
     align-items: center;
     gap: 10px;
     background: #f55800;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 700;
     flex: none;
     order: 3;
     flex-grow: 0;
     transition: all 1s ease-in-out;
   }
 
-  .btn-contact-text {
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    height: 24px;
-    left: 12px;
-    top: 12px;
-    border-radius: nullpx;
-    font-size: 17px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #fff;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    transition: all 1s ease-in-out;
-  }
 
   .bottom-navigation {
     height: 72px;

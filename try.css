@@ -1,0 +1,234 @@
+#contentjs{
+    width: 343px;
+    height: 718px;
+    left: 16px;
+    padding: 16px;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF),
+linear-gradient(0deg, #DFE1E6, #DFE1E6);
+position: absolute;
+}
+.multipost-detail{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+width: 329px;
+height: 82px;
+left: 0px;
+top: 16px;
+border-radius: 0px;
+position: relative;
+}
+.multipost-detail h3{
+    width: 289px;
+height: 82px;
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 44px;
+top: -41px;
+position: relative;
+color: #172B4D;
+}
+.multipost-detail .keepingtrack{
+    display: none;
+}
+.multipost-detail ion-icon {
+    font-size: 24px;
+    top: 0px;
+    right: 4px;
+    position: relative;
+}
+
+
+
+  .contentjs {
+    top: -23px;
+    padding: 12px 0 20px 0;
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 24px 0;
+    position: relative;
+    left: -17px;
+  }
+
+  .contentjs ul {
+    
+    border-radius: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    gap: 12px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    left: -6px;
+    position: relative;
+  }
+
+  .contentjs li { border-radius: 0;
+    padding: 10px 12px 10px 12px;
+    border: 1px solid #8993a4;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #fff;
+    font-family: 'Poppins',sans-serif;
+    color: #3C3A39;
+
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 16px;
+}
+
+.contentjs img{
+    width: 329px;
+    height: 220px;
+    position: relative;
+    left:10px ;
+}
+
+.contentjs p{
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #344563;
+    letter-spacing: 0em;
+    width: 329px;
+    height: 220px;
+    position: relative;
+    left:10px ;
+}
+.contentjs .dummytxt{
+    display: none;
+}
+.contentjs button{
+   
+    height: 48px;
+    left: -85px;
+    top: 19px;
+    background: #FF6B00; 
+    display: inline-flex;
+    position: relative;
+    font-family: 'Inter',sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 17px;
+line-height: 24px;
+color: #FFFFFF;
+padding: 0 15px 0 12px;
+align-items: center;
+border-style: none;
+}
+.contentjs .seelive{
+    width: 134px;
+}
+.contentjs .seesource{
+    position: relative;
+    top: -29px;
+    left: 90px;
+}
+.contentjs .seelive .iconpen{
+    width: 18px;
+height: 18px;
+left: 18px;
+position: relative;
+order: 1;
+}
+.contentjs .seesource .iconpen{
+    width: 40px;
+height: 40px;
+left: 10px;
+position: relative;
+order: 1;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+
+    #contentjs{
+        height: 584px;
+width: 1156px;
+left: 0px;
+top: 0px;
+margin: 112px 142px;
+padding: 24px 24px 27px 24px;
+    }
+
+    .multipost-detail{
+        height: 40px;
+width: 1156px;
+left: 0px;
+top: 0px;
+border-radius: 0px;
+    }
+    .multipost-detail h3{
+        display: none;
+    }
+    .multipost-detail .keepingtrack{
+        display: inline;
+        font-family: 'Crete Round', sans-serif;
+        width: 1056px;
+    }
+    .multipost-detail ion-icon {
+        left: 60px;
+    }
+
+    .contentjs {
+        left: 0px;
+        top: -11px;
+        padding: 0;
+        height: 529px;
+    }
+    .contentjs ul {
+        top: -15px;
+        left: -428px;
+    }
+    .contentjs img{
+        height: 448px;
+width: 659px;
+left: -247px;
+top:10px;
+border-radius: 0px;
+
+    }
+    .contentjs p{
+        display: none;
+    }
+    .contentjs .dummytxt{
+        display: inline;
+        top: -450px;
+        left: 320px;
+        height: 336px;
+width: 424px;
+font-size: 16px;
+
+    }
+    .contentjs button{
+        top: 480px;
+        left: 686px;
+        position: absolute;
+    }
+    .contentjs .seesource{
+        
+        top: 480px;
+        left: 827px;
+        position: absolute;
+    }
+    .contentjs .seelive .iconpen{
+        top: 0px;
+    }
+    .contentjs .seesource .iconpen{
+        top: 0px;
+    }
+
+}
