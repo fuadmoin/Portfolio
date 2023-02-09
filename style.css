@@ -35,6 +35,11 @@
   overflow-x: hidden;
 }
 
+.blurBackground {
+  height: 100%;
+  width: 100%;
+}
+
 /* below are css for the toolbar section */
 .toolbar {
   display: flex;
@@ -141,6 +146,187 @@
   left: -20px;
   position: relative;
 }
+
+.contentjs2 {
+  z-index: 999;
+  width: 327px;
+  height: 718px;
+  left: 16px;
+  padding: 16px 16px 16px 20px;
+  background:
+    linear-gradient(0deg, #fff, #fff),
+    linear-gradient(0deg, #dfe1e6, #dfe1e6);
+  position: absolute;
+}
+
+.multipost-detail {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0;
+  gap: 12px;
+  width: 329px;
+  height: 82px;
+  left: 0;
+  top: 16px;
+  border-radius: 0;
+  position: relative;
+}
+
+.multipost-detail h3 {
+  width: 289px;
+  height: 82px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  top: -41px;
+  position: relative;
+  color: #172b4d;
+}
+
+.multipost-detail .keepingtrack {
+  display: none;
+}
+
+.multipost-detail .ionicon {
+  font-size: 24px;
+  top: 0;
+  right: 4px;
+  position: relative;
+}
+
+.contentjs {
+  top: 55px;
+  padding: 12px 0 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 24px 0;
+  position: relative;
+  left: -17px;
+}
+
+.contentjs ul {
+  border-radius: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  gap: 12px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  left: 0;
+  position: relative;
+  top: -95px;
+}
+
+.contentjs li {
+  border-radius: 0;
+  padding: 10px 12px 10px 12px;
+  border: 1px solid #8993a4;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: #fff;
+  font-family: 'Poppins', sans-serif;
+  color: #3c3a39;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 16px;
+}
+
+.contentjs img {
+  width: 329px;
+  height: 220px;
+  position: relative;
+  left: 10px;
+  top: -75px;
+}
+
+.contentjs p {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #344563;
+  letter-spacing: 0;
+  width: 350px;
+  height: 220px;
+  position: relative;
+  left: 26px;
+  top: -56px;
+}
+
+.contentjs .dummytxt {
+  display: none;
+}
+
+.contentjs .seelive {
+  width: 104px;
+  text-decoration: none;
+  height: 48px;
+  left: -85px;
+  top: -49px;
+  background: #ff6b00;
+  display: inline-flex;
+  position: relative;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  color: #fff;
+  padding: 0 15px 0 12px;
+  align-items: center;
+  border-style: none;
+}
+
+.contentjs .seesource {
+  text-decoration: none;
+  height: 48px;
+  position: relative;
+  top: -97px;
+  left: 90px;
+  background: #ff6b00;
+  display: inline-flex;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  color: #fff;
+  padding: 0 15px 0 12px;
+  align-items: center;
+  border-style: none;
+}
+
+.contentjs .seelive .iconpen {
+  width: 18px;
+  height: 18px;
+  left: 20px;
+  top: 0;
+  position: relative;
+  order: 1;
+}
+
+.contentjs .seesource .iconpen {
+  width: 40px;
+  height: 40px;
+  left: 10px;
+  top: 0;
+  position: relative;
+  order: 1;
+}
+
+
+
+
 
 /* below are css for the headline section */
 
@@ -622,16 +808,15 @@
 }
 
 .see-project {
+  display: none;
   left: 0;
   top: -57px;
   border-radius: 0;
-  display: flex;
   flex-direction: row;
   align-items: center;
   padding: 12px;
   gap: 10px;
   background: #ff6b00;
-  border-radius: nullpx;
   letter-spacing: 0.03em;
   text-align: center;
   font-family: 'Inter', sans-serif;
@@ -646,15 +831,40 @@
   position: relative;
   border-style: hidden;
   transition: all 1s ease-in-out;
-
 }
 
-.see-project:hover, .see-project:focus {
+.see-project2 {
+  left: 0;
+  top: -57px;
+  border-radius: 0;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  background: #ff6b00;
+  letter-spacing: 0.03em;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  color: #fff;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  position: relative;
+  border-style: hidden;
+  transition: all 1s ease-in-out;
+}
+
+.see-project:hover,
+.see-project:focus {
   background-color: antiquewhite;
   color: #ff6b00;
 }
 
- 
+
 
 
 
@@ -755,18 +965,11 @@ section */
   color: #fff;
 }
 
-
-
-.btn:hover, .btn:focus {
+.btn:hover,
+.btn:focus {
   background-color: antiquewhite;
   color: #ff6b00;
 }
-
- 
-
-
-
-
 
 .cardwork-one-rb {
   height: 248px;
@@ -967,7 +1170,6 @@ section */
   padding: 12px;
   gap: 10px;
   background: #ff6b00;
-  
   text-align: center;
   letter-spacing: 0.03em;
   color: #fff;
@@ -987,12 +1189,11 @@ section */
   transition: all 1s ease-in-out;
 }
 
-
-.btn-about:hover, .btn-about:focus {
+.btn-about:hover,
+.btn-about:focus {
   background-color: antiquewhite;
   color: #ff6b00;
 }
-
 
 .divider {
   width: 327px;
@@ -1431,7 +1632,6 @@ section */
   transition: all 1s ease-in-out;
 }
 
-
 .bottom-navigation {
   height: 72px;
   width: 375px;
@@ -1530,17 +1730,28 @@ section */
   border-radius: 0;
 }
 
-.btn-contact:hover, .btn-contact:focus {
+.btn-contact:hover,
+.btn-contact:focus {
   background-color: antiquewhite;
   color: #ff6b00;
 }
-
 
 [class*="navD-"] {
   display: none;
 }
 
 @media only screen and (min-width: 768px) {
+  .blurBackground {
+    height: 100%;
+    width: 100%;
+    filter: blur(0);
+    position: absolute;
+  }
+
+  .see-project2 {
+    display: none;
+  }
+
   .toolbar {
     position: absolute;
     width: 100%;
@@ -1968,10 +2179,12 @@ section */
     transition: all 1s ease-in-out;
   }
 
-  .see-project:hover, .see-project:focus {
+  .see-project:hover,
+  .see-project:focus {
     background-color: antiquewhite;
     color: #ff6b00;
   }
+
   .card-work {
     display: none;
   }
@@ -2045,12 +2258,13 @@ section */
     right: 0;
     bottom: 0;
     order: 0;
-    display:none;
+    display: none;
   }
-  
+
   .btn {
     width: 369px;
-    height: 58px;left: 0;
+    height: 58px;
+    left: 0;
     top: 8px;
     border-radius: 0;
     padding: 12px;
@@ -2059,8 +2273,6 @@ section */
     background: #ff6b00;
     transition: all 1s ease-in-out;
   }
-
-  
 
   .mask-group {
     width: 369px;
@@ -2087,10 +2299,6 @@ section */
     background-image: url(images/cardfour.png);
   }
 
-  
-  
-
-
   .cardwork-one-rb {
     display: flex;
     flex-direction: column;
@@ -2104,6 +2312,22 @@ section */
     top: 135px;
     border-radius: 0;
     padding: 8px 16px 8px 16px;
+  }
+
+  .mask-group:hover ~ .action {
+    display: block;
+  }
+
+  .mask-group:focus ~ .action {
+    display: block;
+  }
+
+  .mask-group:hover ~ .cardwork-one-rb {
+    display: none;
+  }
+
+  .mask-group:focus ~ .cardwork-one-rb {
+    display: none;
   }
 
   .cwo-title-post {
@@ -2302,7 +2526,6 @@ section */
     flex-grow: 0;
     transition: all 1s ease-in-out;
   }
-
 
   .divider {
     width: 1156px;
@@ -2709,7 +2932,6 @@ section */
     transition: all 1s ease-in-out;
   }
 
-
   .bottom-navigation {
     height: 72px;
     width: 1440px;
@@ -2738,5 +2960,92 @@ section */
     flex-direction: row;
     align-items: center;
     padding: 0;
+  }
+
+  .contentjs2 {
+    display: hidden;
+    height: 584px;
+    width: 1156px;
+    left: 20px;
+    top: 400px;
+    z-index: 999;
+    margin: 112px 142px;
+    padding: 24px 24px 27px 24px;
+    position: absolute;
+  }
+
+  .multipost-detail {
+    height: 40px;
+    width: 1156px;
+    left: 0;
+    top: 0;
+    border-radius: 0;
+  }
+
+  .multipost-detail h3 {
+    display: none;
+  }
+
+  .multipost-detail .keepingtrack {
+    display: inline;
+    font-family: 'Crete Round', sans-serif;
+    width: 1056px;
+  }
+
+  .multipost-detail .ionicon {
+    left: 60px;
+  }
+
+  .contentjs {
+    left: 0;
+    top: -11px;
+    padding: 0;
+    height: 529px;
+  }
+
+  .contentjs ul {
+    top: -30px;
+    position: absolute;
+  }
+
+  .contentjs img {
+    height: 448px;
+    width: 659px;
+    left: -247px;
+    top: 100px;
+    border-radius: 0;
+  }
+
+  .contentjs p {
+    display: none;
+  }
+
+  .contentjs .dummytxt {
+    display: inline;
+    top: -250px;
+    left: 320px;
+    height: 336px;
+    width: 424px;
+    font-size: 16px;
+  }
+
+  .contentjs .seelive {
+    top: 483px;
+    left: 686px;
+    position: absolute;
+  }
+
+  .contentjs .seesource {
+    top: 483px;
+    left: 854px;
+    position: absolute;
+  }
+
+  .contentjs .seelive .iconpen {
+    top: 0;
+  }
+
+  .contentjs .seesource .iconpen {
+    top: 0;
   }
 }
