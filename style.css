@@ -3003,7 +3003,7 @@ section */
   .contentjs img {
     height: 448px;
     width: 659px;
-    left: 0px;
+    left: 0;
     top: 83px;
     border-radius: 0;
     position: absolute;
