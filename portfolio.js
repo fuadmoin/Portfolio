@@ -6,53 +6,53 @@ const about = document.querySelector('#about');
 const port = document.querySelector('#port');
 
 const mobileCardCollections = {
- 
-  "mobile":{
+
+  mobile: {
     title: 'Professional Art  Printing Data',
-    description: 'A daily selection of privately' + '<br>' + 'personalized reads; no accounts or ' + '<br>' + ' sign-ups required. has been the ' + '<br>' + " industry's standard",
+    description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the  industry's standard",
     technologies: ['html', 'bootstrap', 'ruby'],
     seeproject: 'See Project',
     seelive: 'See live',
-    source: 'See source', 
+    source: 'See source',
     images: ['./images/cardfour.png', './images/Iconopen.png', './images/git.png'],
-   
-  }
+
+  },
 
 };
 const desktopCardCollections = {
-  "desktop": {
-     title: 'Multi-Post Stories',
-     description2: 'A daily selection of privately personalized ' + '<br>' + ' reads; no accounts or sign-ups required. ' + '<br>' + " has been the industry's standard dummy" + '<br>' + ' text ever since the 1500s,when an ' + '<br>' + 'unknown printer took a standard dummy' + '<br>' + 'text.',
-     images: ['./images/yoga2.png', './images/yoga.png'],
-    description: ' A daily selection of privately personalized ' + '<br>' + ' reads; no accounts or sign-ups required. This ' + '<br>' + " has been the industry's standard dummy text " + '<br>' + 'ever since the 1500s, when an unknown printer ' + '<br>' + 'took a standard dummy text.  ',
+  desktop: {
+    title: 'Multi-Post Stories',
+    description2: "A daily selection of privately personalized  reads; no accounts or sign-ups required.  has been the industry's standard dummy text ever since the 1500s,when an unknown printer took a standard dummy text.",
+    images: ['./images/yoga2.png', './images/yoga.png'],
+    description: "A daily selection of privately personalized  reads; no accounts or sign-ups required. This  has been the industry's standard dummy text ever since the 1500s, when an unknown printertook a standard dummy text.  ",
     technologies: ['css', 'html', 'bootstrap', 'Ruby'],
     seeproject: 'See Project',
     seelive: 'See live',
     source: 'See source',
   },
-  "cardone4":{
-    title: 'Professional Art Printing Data More',
+  cardone4: {
+    title: 'Professional Art  Printing Data More',
     images: ['./images/cardfour.png', './images/Iconopen.png', './images/git.png'],
-    description: 'A daily selection of privately personalized ' + '<br>' + 'reads; no accounts or sign-ups required.' + '<br>' + "  has been the  industry's standard",
+    description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the  industry's standard",
     technologies: ['html', 'bootstrap', 'ruby'],
     seeproject: 'See Project',
     seelive: 'See live',
     source: 'See source',
   },
-  "cardtwo5": {
+  cardtwo5: {
 
     title: 'Data Dashboard  Healthcare',
-    description: 'A daily selection of privately personalized ' + '<br>' + 'reads; no accounts or sign-ups required.' + '<br>' + "  has been the  industry's standard",
+    description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the  industry's standard",
     images: ['./images/cardtwo.png', './images/Iconopen.png', './images/git.png'],
     technologies: ['html', 'bootstrap', 'ruby'],
     seeproject: 'See Project',
     seelive: 'See live',
     source: 'See source',
   },
-  "cardthree6": {
+  cardthree6: {
 
     title: 'Website Portfolio',
-    description: 'A daily selection of privately personalized ' + '<br>' + 'reads; no accounts or sign-ups required.' + '<br>' + "  has been the  industry's standard",
+    description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the  industry's standard",
     images: ['./images/cardthree.png', './images/Iconopen.png', './images/git.png'],
     technologies: ['html', 'bootstrap', 'ruby'],
     seeproject: 'See Project',
@@ -61,16 +61,12 @@ const desktopCardCollections = {
   },
 };
 
-
-
 const cardCollection2 = desktopCardCollections.desktop;
-
 
 const mobileCards1 = document.getElementById('mobile-card-work1');
 mobileCards1.classList.add('featured-image');
 
-
-  mobileCards1.innerHTML = `
+mobileCards1.innerHTML = `
     <img src=${cardCollection2.images[1]} alt="a place holder image" class="yoga">
     <img src=${cardCollection2.images[0]} alt="a place holder image" class="yoga2">
     <div class="right-block">
@@ -89,13 +85,10 @@ mobileCards1.classList.add('featured-image');
     </div>
 `;
 
-
-
 const mobileCards2 = document.getElementById('mobile-card-work2');
 mobileCards2.classList.add('card-work');
 
-
-  mobileCards2.innerHTML = `
+mobileCards2.innerHTML = `
                 <section class=" cardworks cardwork-one">
                     <div class="action">
                         <button type="button" id="mbtn1" class="btn">${mobileCardCollections.mobile.seeproject}</button> 
@@ -187,12 +180,10 @@ mobileCards2.classList.add('card-work');
                     <div class="mask-group"></div>
                 </section> `;
 
-
 const desktopCards1 = document.getElementById('desktop-card-work1');
 desktopCards1.classList.add('card-collection-one');
 
-
-  desktopCards1.innerHTML = `
+desktopCards1.innerHTML = `
 
     <section class="card-one cardworks" tabindex="0">
     <div tabindex="0" class="mask-group mask-group4"></div>
@@ -245,12 +236,10 @@ desktopCards1.classList.add('card-collection-one');
 
     `;
 
-
 const desktopCards2 = document.getElementById('desktop-card-work2');
 desktopCards2.classList.add('card-collection-two');
 
-
-  desktopCards2.innerHTML = `
+desktopCards2.innerHTML = `
     <section class=" cardworks card-four" tabindex="0">
     <div tabindex="0" class="mask-group  mask-group4"></div>
     <div class="action">
@@ -302,37 +291,27 @@ desktopCards2.classList.add('card-collection-two');
 
     `;
 
-
-  
-
 function popupDesktop(btnid) {
-  
   let cardcontainer;
-  if (btnid == 'dbtn1' || btnid == 'dbtn4') {
+  if (btnid === 'dbtn1' || btnid === 'dbtn4') {
     cardcontainer = desktopCardCollections.cardone4;
-  } else if (btnid == 'dbtn2' || btnid == 'dbtn5') {
+  } else if (btnid === 'dbtn2' || btnid === 'dbtn5') {
     cardcontainer = desktopCardCollections.cardtwo5;
-  } else if (btnid == 'dbtn3' || btnid == 'dbtn6') {
+  } else if (btnid === 'dbtn3' || btnid === 'dbtn6') {
     cardcontainer = desktopCardCollections.cardthree6;
-  }
-  else if (btnid == 'dbtn0'|| btnid == 'mbtn0') {
+  } else if (btnid === 'dbtn0' || btnid === 'mbtn0') {
     cardcontainer = desktopCardCollections.desktop;
-  }
-  else if ( btnid == 'mbtn1'|| btnid == 'mbtn2' || btnid == 'mbtn3' || btnid == 'mbtn4' || btnid == 'mbtn5' || btnid == 'mbtn6') {
+  } else if (btnid === 'mbtn1' || btnid === 'mbtn2' || btnid === 'mbtn3' || btnid === 'mbtn4' || btnid === 'mbtn5' || btnid === 'mbtn6') {
     cardcontainer = mobileCardCollections.mobile;
   }
 
-  
-
-  
-  let liTags= "";
-  for(let card in cardcontainer.technologies)
-  {
-    liTags=liTags+`<li>${cardcontainer.technologies[card]}</li>`;
+  let liTags = '';
+  for (let card = 0; card < cardcontainer.technologies.length; card += 1) {
+    liTags += `<li>${cardcontainer.technologies[card]}</li>`;
   }
   const deskPopUp = document.getElementById('contentjs4');
-    deskPopUp.classList.add('contentjs2');
-    deskPopUp.innerHTML = `
+  deskPopUp.classList.add('contentjs2');
+  deskPopUp.innerHTML = `
     <header class="multipost-detail">
     <h3>${cardcontainer.title}</h3>
     <h3  class="keepingtrack">
@@ -341,8 +320,8 @@ function popupDesktop(btnid) {
     <ion-icon id="closepopup" class ="ionicon"  name="close-outline"></ion-icon>
    </header>
    <article class="contentjs">
-    <ul id="leftul" class="cwo-tags"> `+
-     liTags+ `
+    <ul id="leftul" class="cwo-tags"> ${
+  liTags}
     </ul>
     <img id="popimg" src=${cardcontainer.images[0]} alt="a placeholder image" />
     <p id="poppg">
@@ -361,59 +340,53 @@ function popupDesktop(btnid) {
     </a>
    </article>
     `;
-  
-  deskPopUp.style.display = 'block'; 
-  const blurBackground = document.getElementById('blurBackground')
-  blurBackground.style.filter ="blur(0px)"; 
-  const popimg = document.getElementById('popimg'); 
+
+  deskPopUp.style.display = 'block';
+  const blurBackground = document.getElementById('blurBackground');
+  blurBackground.style.filter = 'blur(0px)';
+  const popimg = document.getElementById('popimg');
   const poppg = document.getElementById('poppg');
   const leftul = document.getElementById('leftul');
   leftul.style.left = '0px';
-  
-  if (btnid == 'dbtn1' || btnid == 'dbtn2' || btnid == 'dbtn3') {
+
+  if (btnid === 'dbtn1' || btnid === 'dbtn2' || btnid === 'dbtn3') {
     deskPopUp.style.top = '1600px';
-    blurBackground.style.filter ='blur(10px)';
+    blurBackground.style.filter = 'blur(10px)';
+  }
 
-   }
-     
-    if (btnid == 'mbtn1' || btnid == 'mbtn2' || btnid == 'mbtn3'|| btnid == 'mbtn4' || btnid == 'mbtn5' || btnid == 'mbtn6') {
-      
-      blurBackground.style.filter ='blur(10px)';
-      leftul.style.left = '-30px';
-      leftul.style.top = '-45px';
-      popimg.style.top = "-35px";
-      poppg.style.top = '-6px';
-    }
-    if (btnid == 'mbtn1') {deskPopUp.style.top = '1600px';}
-    if (btnid == 'mbtn0') {deskPopUp.style.top = '900px';
-    blurBackground.style.filter ='blur(10px)';}
-    if (btnid == 'mbtn2') {deskPopUp.style.top = '1900px';}
-    if (btnid == 'mbtn3') {deskPopUp.style.top = '2400px';}
-    if (btnid == 'mbtn4') {deskPopUp.style.top = '2900px';}
-    if (btnid == 'mbtn5') {deskPopUp.style.top = '3300px';}
-    if (btnid == 'mbtn6') {deskPopUp.style.top = '3800px';}
-    if (btnid == 'dbtn4' || btnid == 'dbtn5' || btnid == 'dbtn6') {
-      deskPopUp.style.top = '2100px';
-      blurBackground.style.filter ='blur(10px)';
-    }
-      if (btnid == 'dbtn0') {
-        deskPopUp.style.top = '1100px';
-        leftul.style.left = '0px';
-        blurBackground.style.filter ='blur(10px)';
-      }
-      const closepopup = document.getElementById('closepopup');
-      closepopup.addEventListener('click', () => {
-        deskPopUp.style.display = 'none';
-        blurBackground.style.filter ='blur(0px)';
-        deskPopUp.style.top = '1000px';
-      });
+  if (btnid === 'mbtn1' || btnid === 'mbtn2' || btnid === 'mbtn3' || btnid === 'mbtn4' || btnid === 'mbtn5' || btnid === 'mbtn6') {
+    blurBackground.style.filter = 'blur(10px)';
+    leftul.style.left = '-30px';
+    leftul.style.top = '-45px';
+    popimg.style.top = '-35px';
+    poppg.style.top = '-6px';
+  }
+  if (btnid === 'mbtn1') { deskPopUp.style.top = '1600px'; }
+  if (btnid === 'mbtn0') {
+    deskPopUp.style.top = '900px';
+    blurBackground.style.filter = 'blur(10px)';
+  }
+  if (btnid === 'mbtn2') { deskPopUp.style.top = '1900px'; }
+  if (btnid === 'mbtn3') { deskPopUp.style.top = '2400px'; }
+  if (btnid === 'mbtn4') { deskPopUp.style.top = '2900px'; }
+  if (btnid === 'mbtn5') { deskPopUp.style.top = '3300px'; }
+  if (btnid === 'mbtn6') { deskPopUp.style.top = '3800px'; }
+  if (btnid === 'dbtn4' || btnid === 'dbtn5' || btnid === 'dbtn6') {
+    deskPopUp.style.top = '2100px';
+    blurBackground.style.filter = 'blur(10px)';
+  }
+  if (btnid === 'dbtn0') {
+    deskPopUp.style.top = '1100px';
+    leftul.style.left = '0px';
+    blurBackground.style.filter = 'blur(10px)';
+  }
+  const closepopup = document.getElementById('closepopup');
+  closepopup.addEventListener('click', () => {
+    deskPopUp.style.display = 'none';
+    blurBackground.style.filter = 'blur(0px)';
+    deskPopUp.style.top = '1000px';
+  });
 }
-
-
-  
-
-
-
 
 const mbtn0 = document.getElementById('mbtn0');
 mbtn0.addEventListener('click', () => {
@@ -464,7 +437,6 @@ dbtn6.addEventListener('click', () => {
 const dbtn1 = document.getElementById('dbtn1');
 dbtn1.addEventListener('click', () => {
   popupDesktop('dbtn1');
- 
 });
 const dbtn2 = document.getElementById('dbtn2');
 dbtn2.addEventListener('click', () => {

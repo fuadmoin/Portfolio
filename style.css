@@ -3003,9 +3003,10 @@ section */
   .contentjs img {
     height: 448px;
     width: 659px;
-    left: -247px;
-    top: 100px;
+    left: 0px;
+    top: 83px;
     border-radius: 0;
+    position: absolute;
   }
 
   .contentjs p {
@@ -3014,11 +3015,12 @@ section */
 
   .contentjs .dummytxt {
     display: inline;
-    top: -250px;
-    left: 320px;
+    top: 250px;
+    left: 686px;
     height: 336px;
     width: 424px;
     font-size: 16px;
+    position: absolute;
   }
 
   .contentjs .seelive {
