@@ -388,6 +388,11 @@ function popupDesktop(btnid) {
   });
 }
 
+const form = document.getElementById('formspree');
+const errorvalid = document.getElementById('errorvalid');
+const email2 = document.getElementById('email');
+let emailAddress;
+
 const mbtn0 = document.getElementById('mbtn0');
 mbtn0.addEventListener('click', () => {
   popupDesktop('mbtn0');

@@ -263,6 +263,7 @@
           method="POST"
           action="https://formspree.io/f/mgebvdbg"
           class="form-box"
+          id="formspree"
         >
           <input
             tabindex="0"
@@ -279,10 +280,17 @@
             type="email"
             class="email-address"
             name="email"
+            id="email"
             placeholder="Email address"
             required
           />
           <hr class="contacthr two" />
+          <small id="errorvalid"
+            >Please use smallcase letters for this field!<ion-icon
+              name="warning"
+              class="warning"
+            ></ion-icon>
+          </small>
           <textarea
             tabindex="0"
             name="message"
@@ -294,7 +302,7 @@
             placeholder="Enter text here"
             required
           ></textarea>
-          <textarea
+          <!-- <textarea
             tabindex="0"
             name="message"
             id=""
@@ -304,7 +312,7 @@
             class="enter-text-here2"
             placeholder="Hello Mariane. I would like to get in touch with you..."
             required
-          ></textarea>
+          ></textarea> -->
 
           <button tabindex="0" type="submit" class="btn-contact">
             Get in touch
