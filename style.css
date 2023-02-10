@@ -32,7 +32,8 @@
 .brb {
   margin: 0;
   display: list-item;
-  overflow-x: hidden;
+
+  /* overflow-x: hidden; */
 }
 
 .blurBackground {
@@ -141,7 +142,7 @@
 .hidden-ul .navline {
   height: 0;
   margin-top: 15px;
-  width: 327px;
+  width: 87.2%;
   background: #6f6c6b;
   left: -20px;
   position: relative;
@@ -149,7 +150,7 @@
 
 .contentjs2 {
   z-index: 999;
-  width: 327px;
+  width: 87.2%;
   overflow: auto;
   height: 718px;
   left: 16px;
@@ -499,7 +500,7 @@
   padding: 120px 0;
   gap: 80px;
   position: absolute;
-  width: 375px;
+  width: 100%;
   height: 3455px;
   left: 0;
   top: 682px;
@@ -516,7 +517,7 @@
   top: 70px;
   border-radius: 0;
   position: absolute;
-  width: 327px;
+  width: 87.2%;
   height: 107px;
 }
 
@@ -541,7 +542,7 @@
 
 .hline {
   height: 0;
-  width: 327px;
+  width: 87.2%;
   left: 0;
   border-radius: 0;
   background: #212121;
@@ -562,7 +563,7 @@
   align-items: center;
   padding: 0;
   gap: 24px;
-  width: 375px;
+  width: 100%;
   height: 3028px;
   flex: none;
   flex-grow: 0;
@@ -589,7 +590,7 @@
   left: 24px;
   top: 0;
   border-radius: 0;
-  width: 327px;
+  width: 87.2%;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -1104,7 +1105,7 @@ section */
 
 .about {
   height: 563px;
-  width: 375px;
+  width: 87.2%;
   left: 0;
   top: 0;
   border-radius: 0;
@@ -1189,7 +1190,7 @@ section */
 }
 
 .divider {
-  width: 327px;
+  width: 87.2%;
   top: 615px;
   border-radius: 0;
   position: absolute;
@@ -1446,7 +1447,7 @@ section */
 
 .contact-form {
   height: 750px;
-  width: 375px;
+  width: 327px;
   left: 0;
   top: 6195px;
   border-radius: 0;
@@ -1536,6 +1537,30 @@ section */
   transform: translate(50%, 0);
 }
 
+#errorvalid {
+  visibility: hidden;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 24px;
+  position: relative;
+  top: 295px;
+  left: 170px;
+  padding-left: 25px;
+  width: 330px;
+  background: #ffc199;
+  border-left: 9px solid #f60;
+  color: #2c3e50;
+}
+
+#errorvalid .warning {
+  font-size: large;
+  top: 2px;
+  left: 3px;
+  position: absolute;
+}
+
 .email-address {
   height: 48px;
   width: 327px;
@@ -1552,7 +1577,7 @@ section */
   position: absolute;
   height: 1px;
   left: 0;
-  width: 327px;
+  width: 87.2%;
   border-radius: 0;
   background: #dbd8d7;
 }
@@ -1627,7 +1652,7 @@ section */
 
 .bottom-navigation {
   height: 72px;
-  width: 375px;
+  width: 100%;
   left: 0;
   top: 6399px;
   border-radius: 0;
@@ -1636,7 +1661,7 @@ section */
 
 .footer-rectangle {
   height: 1px;
-  width: 375px;
+  width: 100%;
   left: 0;
   top: 0;
   border-radius: 0;
@@ -2840,9 +2865,9 @@ section */
     flex-grow: 0;
   }
 
-  .enter-text-here {
+  /* .enter-text-here {
     display: none;
-  }
+  } */
 
   .full-name {
     position: absolute;
@@ -2876,7 +2901,7 @@ section */
     background: #dbd8d7;
   }
 
-  .enter-text-here2 {
+  .enter-text-here {
     display: flex;
     height: 114px;
     width: 684px;
@@ -2891,7 +2916,7 @@ section */
     background: #fbf8f7;
   }
 
-  .enter-text-here2::placeholder {
+  .enter-text-here::placeholder {
     height: 90px;
     width: 660px;
     left: 12px;

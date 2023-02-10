@@ -388,6 +388,23 @@ function popupDesktop(btnid) {
   });
 }
 
+// form validation function
+const form = document.getElementById('formspree');
+const errorvalid = document.getElementById('errorvalid');
+const email2 = document.getElementById('email');
+let emailAddress;
+function hasUppercaseLetter(str) { return str.toLowerCase() !== str; }
+
+form.addEventListener('submit', (event) => {
+  errorvalid.style.visibility = 'hidden';
+  emailAddress = email2.value;
+
+  if (hasUppercaseLetter(emailAddress) === true) {
+    event.preventDefault();
+    errorvalid.style.visibility = 'visible';
+  }
+});
+
 const mbtn0 = document.getElementById('mbtn0');
 mbtn0.addEventListener('click', () => {
   popupDesktop('mbtn0');
