@@ -419,6 +419,12 @@ form.addEventListener('submit', (event) => {
   userDataSave();
 });
 
+form.addEventListener('input', () => {
+  emailAddress = email2.value;
+  fullname = fullName.value;
+  messagetext = textData.value;
+  userDataSave();
+});
 let datas;
 
 window.onload = function userDataRetrieve() {
