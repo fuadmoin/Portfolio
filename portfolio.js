@@ -412,10 +412,23 @@ form.addEventListener('submit', (event) => {
   
 });
 
-
-
-
-
+let datas;
+function userDataSave(){
+  
+  let userData = {
+    "fullname": fullname,
+    "email": emailAddress,
+    "messagetext": messagetext
+    }
+    window.localStorage.setItem ('userdata', JSON.stringify(userData));
+ }
+ window.onload = function userDataRetrieve(){
+  datas =window.localStorage.getItem('userdata');
+   let  result= JSON.parse(datas);
+      email2.value = result.email;
+      fullName.value = result.fullname;
+      textData.value = result.messagetext;
+ }
 
 const mbtn0 = document.getElementById('mbtn0');
 mbtn0.addEventListener('click', () => {
