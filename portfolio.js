@@ -390,10 +390,10 @@ function popupDesktop(btnid) {
 
 // form validation function
 const form = document.getElementById('formspree');
-const errorvalid = document.getElementById('errorvalid');
+
 const email2 = document.getElementById('email');
 let emailAddress;
-function hasUppercaseLetter(str) { return str.toLowerCase() !== str; }
+function hasUppercaseLetter(str) { return str.toUpperCase() !== str; }
 
 form.addEventListener('submit', (event) => {
   errorvalid.style.visibility = 'hidden';
@@ -401,7 +401,7 @@ form.addEventListener('submit', (event) => {
 
   if (hasUppercaseLetter(emailAddress) === true) {
     event.preventDefault();
-    errorvalid.style.visibility = 'visible';
+    
   }
 });
 
