@@ -388,12 +388,22 @@ function popupDesktop(btnid) {
   });
 }
 
-// form validation function
 const form = document.getElementById('formspree');
 const errorvalid = document.getElementById('errorvalid');
 const email2 = document.getElementById('email');
-let emailAddress;
+const { fullName } = form.elements;
+const textData = form.elements.messagetext;
+let emailAddress; let fullname; let
+  messagetext;
 function hasUppercaseLetter(str) { return str.toLowerCase() !== str; }
+function userDataSave() {
+  const userData = {
+    fullname,
+    email: emailAddress,
+    messagetext,
+  };
+  window.localStorage.setItem('userdata', JSON.stringify(userData));
+}
 
 form.addEventListener('submit', (event) => {
   errorvalid.style.visibility = 'hidden';
@@ -403,7 +413,27 @@ form.addEventListener('submit', (event) => {
     event.preventDefault();
     errorvalid.style.visibility = 'visible';
   }
+
+  fullname = fullName.value;
+  messagetext = textData.value;
+  userDataSave();
 });
+
+form.addEventListener('input', () => {
+  emailAddress = email2.value;
+  fullname = fullName.value;
+  messagetext = textData.value;
+  userDataSave();
+});
+let datas;
+
+window.onload = function userDataRetrieve() {
+  datas = window.localStorage.getItem('userdata');
+  const result = JSON.parse(datas);
+  email2.value = result.email;
+  fullName.value = result.fullname;
+  textData.value = result.messagetext;
+};
 
 const mbtn0 = document.getElementById('mbtn0');
 mbtn0.addEventListener('click', () => {
