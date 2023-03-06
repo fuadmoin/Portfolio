@@ -32,19 +32,19 @@
 
 # 📖 Portfolio <a name="about-project"></a>
 
-**Portfolio** is a project that describes about me and the projects I have worked on.
+**Portfolio** a project that describes me and the projects I have worked. It showcases some of my best works that demonstrate my creativity, versatility, and attention to detail. You can browse through my projects by category, read testimonials from satisfied customers, and contact me for any inquiries or collaborations.
 
 ## 🛠 Built With <a name="built-with"></a>
 
-HTML and CSS
-
 ### Tech Stack <a name="tech-stack"></a>
+
+HTML, JavaScript and CSS
 
 ### Key Features <a name="key-features"></a>
 
-- **[html styled with css]**
-- **[some google fonts]**
-- **[the contact form can collect data by using the Formspree service ]**
+- **[HTML styled with css]**
+- **[Some google fonts]**
+- **[The contact form can collect data by using Formspree service ]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
