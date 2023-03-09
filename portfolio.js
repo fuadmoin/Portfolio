@@ -12,8 +12,8 @@ const mobileCardCollections = {
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the  industry's standard",
     technologies: ['html', 'bootstrap', 'ruby'],
     seeproject: 'See Project',
-    seelive: 'See live',
-    source: 'See source',
+    seelive: 'https://fuadmoin.github.io/English-Without-Border/',
+    source: 'https://github.com/fuadmoin/English-Without-Border',
     images: ['./images/cardfour.png', './images/Iconopen.png', './images/git.png'],
 
   },
@@ -21,14 +21,14 @@ const mobileCardCollections = {
 };
 const desktopCardCollections = {
   desktop: {
-    title: 'Multi-Post Stories',
-    description2: "A daily selection of privately personalized  reads; no accounts or sign-ups required.  has been the industry's standard dummy text ever since the 1500s,when an unknown printer took a standard dummy text.",
-    images: ['./images/yoga2.png', './images/yoga.png'],
-    description: "A daily selection of privately personalized  reads; no accounts or sign-ups required. This  has been the industry's standard dummy text ever since the 1500s, when an unknown printertook a standard dummy text.  ",
-    technologies: ['css', 'html', 'bootstrap', 'Ruby'],
+    title: 'English Without Borders',
+    description2: 'English Without Borders is a demo for a free online website that connects learners with certified English tutors from around the world. Users can choose teachers based on their goals. ',
+    images: ['./images/englishWithoutBorders.png', './images/EWBmb.jpg'],
+    description: 'English Without Borders is a demo for a free online website that connects learners with certified English tutors from around the world. Users can choose teachers based on their goals. ',
+    technologies: ['CSS', 'HTML', 'JavaScript'],
     seeproject: 'See Project',
-    seelive: 'See live',
-    source: 'See source',
+    seelive: 'https://fuadmoin.github.io/English-Without-Border/',
+    source: 'https://github.com/fuadmoin/English-Without-Border',
   },
   cardone4: {
     title: 'Professional Art  Printing Data More',
@@ -78,7 +78,6 @@ mobileCards1.innerHTML = `
         <ul class="tags"> <li class="css" tabindex="0"><small class="csst">${cardCollection2.technologies[0]}</small></li>
         <li class="html" tabindex="0"><small class="htmlt">${cardCollection2.technologies[1]}</small></li>
          <li class="bootstrap" tabindex="0"><small class="bootstrapt">${cardCollection2.technologies[2]}</small></li>
-         <li class="ruby" tabindex="0"><small class="rubyt">${cardCollection2.technologies[3]}</small></li>
          </ul>
          <button type="button" id="dbtn0" class="see-project" tabindex="0">${cardCollection2.seeproject}</button>
          <button type="button" id="mbtn0" class="see-project2" tabindex="0">${cardCollection2.seeproject}</button>
@@ -330,12 +329,12 @@ function popupDesktop(btnid) {
     <p class="dummytxt">${cardcontainer.description}
     </p>
    
-    <a class="seelive" href=" https://fuadmoin.github.io/Portfolio/" target="_blank">
-    ${cardcontainer.seelive} 
+    <a class="seelive" href=${cardcontainer.seelive} target="_blank">
+    See live 
       <img src=${desktopCardCollections.cardone4.images[1]}  class="iconpen" alt="a link to the live demo of this website" />
     </a>
-    <a class="seesource" href="https://github.com/fuadmoin" target="_blank">
-    ${cardcontainer.source} 
+    <a class="seesource" href=${cardcontainer.source} target="_blank">
+    See Source
       <img src=${desktopCardCollections.cardone4.images[2]}  class="iconpen" alt="a link to github page" />
     </a>
    </article>

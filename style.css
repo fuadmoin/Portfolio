@@ -31,9 +31,7 @@
 
 .brb {
   margin: 0;
-  display: list-item;
-
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
 }
 
 .blurBackground {
@@ -736,7 +734,7 @@
 }
 
 .bootstrap {
-  left: 129px;
+  left: 135px;
   top: 0;
   border-radius: 0;
   padding: 10px 12px 10px 12px;
@@ -1768,7 +1766,7 @@ section */
 
   .brb {
     margin: 0;
-    overflow-x: scroll;
+    overflow-x: visible;
     width: 100%;
   }
 
@@ -2025,7 +2023,7 @@ section */
     display: grid;
     grid-template-columns: auto;
     height: 1805px;
-    width: 1392;
+    width: 87%;
     left: 118px;
     top: 948px;
     border-radius: 0;
@@ -2109,11 +2107,12 @@ section */
   .yoga2 {
     display: flex;
     left: 0;
-    top: 0;
+    top: -50px;
     border-radius: 0;
     flex: none;
     order: 0;
     flex-grow: 0;
+    position: relative;
   }
 
   .right-block {
